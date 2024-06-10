@@ -14,7 +14,7 @@
     A pygame hosted on a website!
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://rod608.github.io/rwc-game-website/">View Demo</a>
   </p>
 </div>
 
