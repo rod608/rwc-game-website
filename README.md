@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://news.njit.edu/program-started-njit-professor-spreading-entrepreneurial-spirit-around-world" target="_blank">
     <img src="rwc-logo.png" alt="Logo" height="80">
   </a>
 
@@ -14,7 +14,7 @@
     A pygame hosted on a website!
     <br />
     <br />
-    <a href="https://rod608.github.io/rwc-game-website/">View Demo</a>
+    <a href="https://rod608.github.io/rwc-game-website/" target="_blank">View Demo</a>
   </p>
 </div>
 
@@ -22,7 +22,7 @@
 ## About The Project
 
 
-Add your game's description here! Shoutout to [Programming With Nick](https://www.youtube.com/watch?v=q25i2CCNvis) for the tutorial.
+Add your game's description here! Shoutout to <a href="https://www.youtube.com/watch?v=q25i2CCNvis" target="_blank">Programming With Nick</a> for the tutorial.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,6 +62,6 @@ Add your game's description here! Shoutout to [Programming With Nick](https://ww
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After following the installation steps, you'll have a *build/* directory within the *game/* directory. You can add a CSS stylesheet and any JS scripts you'd like within here. For hosting, make sure to use GitHub pages as outlined in this [Documentation](https://pygame-web.github.io/wiki/pygbag/github.io/).
+After following the installation steps, you'll have a *build/* directory within the *game/* directory. You can add a CSS stylesheet and any JS scripts you'd like within here. For hosting, make sure to use GitHub pages as outlined in this <a href="https://pygame-web.github.io/wiki/pygbag/github.io/" target="_blank">Documentation</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
