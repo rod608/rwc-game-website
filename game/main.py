@@ -1,4 +1,5 @@
-import pygame, sys, random, asyncio
+import pygame, sys, random
+import asyncio  # NEEDED TO LOAD GAME IN BROWSER
 from pygame.math import Vector2
 
 pygame.init()
@@ -116,7 +117,7 @@ SNAKE_UPDATE = pygame.USEREVENT
 pygame.time.set_timer(SNAKE_UPDATE, 200) 	
 
 
-async def main():
+async def main():  # FUNCTION HEADER NEEDED TO LOAD GAME IN BROWSER
 	while True:
 		for event in pygame.event.get():
 			if event.type == SNAKE_UPDATE:
@@ -137,7 +138,6 @@ async def main():
 				if event.key == pygame.K_RIGHT and game.snake.direction != Vector2(-1, 0):
 					game.snake.direction = Vector2(1, 0)
 
-		#Drawing
 		screen.fill(GREEN)
 		pygame.draw.rect(screen, DARK_GREEN, 
 			(OFFSET-5, OFFSET-5, cell_size*number_of_cells+10, cell_size*number_of_cells+10), 5)
@@ -153,4 +153,5 @@ async def main():
 		await asyncio.sleep(0)
 
 
+# NEEDED TO LOAD GAME IN BROWSER
 asyncio.run(main())
