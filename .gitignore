@@ -1,6 +1,6 @@
-game/build
 *.wav
 *.mp3
 *.pyc
 *.egg-info
 *-pygbag.???
+.idea
